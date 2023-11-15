@@ -2,7 +2,8 @@ body{
   background-color: #e7e5e4 ;
   margin: 0 auto;
   padding: 0 auto;
-
+max-width: 1400px;
+width: 100%;
 }
 .container{
   display: flex;
@@ -88,9 +89,23 @@ footer ul svg:hover path{
 /* background-color: transparent ; */
 /* color: red; */
 }
+@media only screen and (max-width:1200px) {
+  main{
+    margin-bottom: 220px;
+  }
+
+}
+}
 @media only screen and (max-width:1000) {
   main{
-    margin-bottom: 180px;
+    margin-bottom: 100px;
+  }
+
+}
+}
+@media only screen and (max-width:600) {
+  main{
+    margin-bottom: 80px;
   }
 
 }
