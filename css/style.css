@@ -1,6 +1,7 @@
 body{
   background-color: #e7e5e4 ;
-  text-align: center;
+  /* text-align: center; */
+
 }
 ul{
   text-align: center;
@@ -12,10 +13,27 @@ ul{
 li{
   list-style: none;
   padding: 10px;
-
+cursor: pointer;
 }
 a{
   text-decoration: none;
   color: crimson;
   font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+}
+a:hover{
+  color: rgba(117, 5, 5, 0.518);
+  background-color: rgba(255, 255, 212, 0.271);
+}
+a:active{
+  color: darkred;
+}
+a:visited{
+  color: #4545455a;
+}
+i{
+  font-size: 40px;
 }
