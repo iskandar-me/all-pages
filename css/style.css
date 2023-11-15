@@ -1,21 +1,45 @@
 body{
   background-color: #e7e5e4 ;
-  /* text-align: center; */
+  margin: 0 auto;
+  padding: 0 auto;
 
 }
-ul{
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a{
+color: crimson;
+font-weight: bold;
+text-decoration: none;
+margin-top: 30px;
+margin-bottom: 0;
+font-size: 36px;
+cursor: pointer;
+
+}
+main{
+  margin-bottom: 280px;
+}
+main ul{
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 60px;
 }
 li{
   list-style: none;
   padding: 10px;
+}
+ main li{
 cursor: pointer;
 }
-a{
+main a{
   text-decoration: none;
   color: crimson;
   font-weight: 700;
@@ -24,16 +48,55 @@ a{
   transition: all 0.3s ease;
   padding: 10px 20px;
 }
-a:hover{
+main a:hover{
   color: rgba(117, 5, 5, 0.518);
   background-color: rgba(255, 255, 212, 0.271);
 }
-a:active{
+main a:active{
   color: darkred;
 }
-a:visited{
+main a:visited{
   color: #4545455a;
 }
 i{
   font-size: 40px;
+}
+footer{
+  border-color: #e7e5e4;
+
+}
+footer ul{
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer ul a{
+  display: block;
+}
+footer ul svg path{
+  display: block;
+  color:  #2d75f0;
+  transition: all 0.4s ease;
+}
+footer ul svg:hover path{
+  fill: crimson;
+/* background-color: transparent ; */
+/* color: red; */
+}
+@media only screen and (max-width:1000) {
+footer ul {
+position: -webkit-sticky;
+}
+
+}
+@media only screen and (max-width:500) {
+footer ul {
+
+}
+
 }
