@@ -89,14 +89,13 @@ footer ul svg:hover path{
 /* color: red; */
 }
 @media only screen and (max-width:1000) {
-footer ul {
-position: -webkit-sticky;
-}
+  main{
+    margin-bottom: 180px;
+  }
 
 }
 @media only screen and (max-width:500) {
-footer ul {
-
-}
-
+  main{
+    margin-bottom: 80px;
+  }
 }
