@@ -23,7 +23,7 @@ cursor: pointer;
 
 }
 main{
-  margin-bottom: 280px;
+  margin-bottom: 130px;
 }
 main ul{
   text-align: center;
@@ -91,7 +91,7 @@ footer ul svg:hover path{
 }
 @media only screen and (max-width:1200px) {
   main{
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 
 }
